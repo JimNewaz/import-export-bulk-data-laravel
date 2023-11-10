@@ -25,4 +25,8 @@ class CsvImportController extends Controller
 
         return redirect()->back()->with('success', 'CSV data imported successfully.');
     }
+
+    public function download(){
+        dd("download");
+    }
 }

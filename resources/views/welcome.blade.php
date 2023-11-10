@@ -43,6 +43,11 @@
                     <input type="file" name="csv_file">
                     <button type="submit">Upload CSV</button>
                 </form>              
+
+                {{-- Download the last file --}}
+                <form action="" method="POST">
+                    <a href="/download" class="btn btn-success">Download</a>
+                </form>
             </div>
         </div>
     </body>
